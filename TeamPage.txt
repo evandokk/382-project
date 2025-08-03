@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tekton Management Team</title>
+    <style>
+        body {
+            background-color: white;
+            font-family: Georgia, serif;
+            color: #333;
+            margin: 20px;
+        }
+        h1 {
+            font-family: Elephant, Georgia, serif;
+            font-size: xx-large; /* size 7 */
+            color: darkred;
+        }
+        h2 {
+            font-family: Georgia, serif;
+            font-size: x-large; /* size 5 */
+            color: grey;
+        }
+        p {
+            font-size: large; /* size 4 */
+        }
+        .highlight {
+            font-weight: bold;
+            font-style: italic;
+            text-decoration: underline;
+            color: red;
+        }
+        .team-photo {
+            width: 300px;
+            height: auto;
+            border: 2px solid grey;
+        }
+        .contact-link {
+            font-size: large;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Meet Our Management Team</h1>
+    <img src="team.jpg" alt="Tekton Management Team" class="team-photo">
+
+    <h2>Tracy Tekton – Chief Executive Officer</h2>
+    <p>
+        <span class="highlight">Tracy Tekton</span> leads the company with a legacy-driven vision, being the daughter of our
+        retired founder <strong>Taylor Tekton</strong>. Her leadership style combines innovation and tradition, ensuring Tekton remains a force in the construction industry.
+    </p>
+
+    <h2>Senior Management Team</h2>
+    <ul>
+        <li><b><i>Maria Sanchez</i></b> – VP of Operations</li>
+        <li><b><i>James Carter</i></b> – Chief Financial Officer</li>
+        <li><b><i>Linda Cheng</i></b> – Director of Human Resources</li>
+        <li><b><i>Rahul Patel</i></b> – Head of Project Engineering</li>
+    </ul>
+
+    <h2>Core Values</h2>
+    <ol>
+        <li>Integrity in every decision</li>
+        <li>Commitment to sustainable building</li>
+        <li>Customer-first philosophy</li>
+        <li>Growth through innovation</li>
+    </ol>
+
+    <p>
+        Learn more about our <a href="https://www.construction.com/" target="_blank">construction industry partnerships</a>.
+    </p>
+
+    <p>
+        <a class="contact-link" href="mailto:tracy.tekton@tektoncorp.com">Contact Me</a>
+    </p>
+
+    <p>
+        <a href="teambio.pdf" download>Download Management Bios (PDF)</a>
+    </p>
+
+    <p id="modified-date"></p>
+
+    <script>
+        // Auto-update last modified date
+        document.getElementById("modified-date").innerHTML = 
+            "Date last modified: " + document.lastModified;
+    </script>
+
+</body>
+</html>
